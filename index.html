@@ -18,49 +18,56 @@
 
     <form action="front-end-projects" id="survey-form">
       <fieldset class="field-1">
-        <label for="name" id="name-label">Name</label>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          class="text input-box"
-          placeholder="Enter your name"
-          required
-        />
-
-        <label for="email" id="email-label">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class="text input-box"
-          placeholder="Enter your email"
-          required
-        />
-
-        <label for="number" id="number-label">Age(optional)</label>
-        <input
-          type="number"
-          name="number"
-          class="text input-box"
-          id="number"
-          placeholder="What is your age?"
-          min="5"
-          max="99"
-        />
+        <div class="input-pair">
+            <label for="name" id="name-label" style="margin-top: 50px;">Name</label>
+            <input
+            type="text"
+            name="name"
+            id="name"
+            class="text input-box"
+            placeholder="Enter your name"
+            required
+            />
+        </div>
+        <div class="input-pair">
+            <label for="email" id="e0mail-label">Email</label>
+            <input
+            type="email"
+            name="email"
+            id="email"
+            class="text input-box"
+            placeholder="Enter your email"
+            required
+            />
+        </div>
+        <div class="input-pair">
+            <label for="number" id="number-label">Age(optional)</label>
+            <input
+            type="number"
+            name="number"
+            class="text input-box"
+            id="number"
+            placeholder="What is your age?"
+            min="5"
+            max="99"
+            />
+        </div>
       </fieldset>
 
       <fieldset class="field-2">
-        <label for="dropdown"
-          >Which option best describes your current role?</label
-        >
-        <select name="dropdown" id="dropdown" class="input-box">
-          <option value="student">Student</option>
-          <option value="full-time-job">Full Time Job</option>
-          <option value="other">Other</option>
-        </select>
+        <div class="input-pair">
+            <label for="dropdown"
+            >Which option best describes your current role?</label
+            >
+            <select name="dropdown" id="dropdown" class="input-box">
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="other">Other</option>
+            </select>
+        </div>
 
         <label for="recommend"
+        style="margin-top: 5vh;"
           >Would you recommend freeCodeCamp to a friend?</label
         >
         <label for="yes">
@@ -76,15 +83,17 @@
           No
         </label>
 
-        <label for="fav-feature"
-          >What is your favourite feature of freeCodeCamp?</label
-        >
-        <select name="fav-feature" id="fav-feature" class="input-box">
-          <option value="challenges">Challenges</option>
-          <option value="projects">Projects</option>
-          <option value="community">Community</option>
-          <option value="open-source">Open Source</option>
-        </select>
+        <div class="input-pair" style="margin-bottom: 5vh; margin-top: 25px;"">
+            <label for="fav-feature"
+            >What is your favourite feature of freeCodeCamp?</label
+            >
+            <select name="fav-feature" id="fav-feature" class="input-box">
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+            </select>
+        </div> 
 
         <label for="checkboxes">
           What would you like to see improved? (Check all that apply)
@@ -184,16 +193,21 @@
           Additional Courses
         </label>
 
-        <label for="suggestion-box">
-          Any Comments or Suggestions?
-          <textarea
-            name="suggestion-box"
-            id="suggestion-box"
-            cols="30"
-            rows="10"
-            placeholder="Enter your comment here"
-          ></textarea>
-        </label>
+        <div class="input-pair" style="margin-top: 3vh;">
+            <label for="suggestion-box">
+            Any Comments or Suggestions?
+            <textarea
+                name="suggestion-box"
+                id="suggestion-box"
+                cols="30"
+                rows="60"
+                style="font-family: inherit; display: block; height: 15vh;"
+                placeholder="Enter your comment here"
+                class="text input-box"
+            ></textarea>
+            </label>
+        </div>
+        <input type="submit" value="Submit" class="submit input-box" >
       </fieldset>
     </form>
   </body>

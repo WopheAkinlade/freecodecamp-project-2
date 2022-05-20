@@ -1,6 +1,9 @@
 body{
     font-family: sans-serif;
-    background-color: rgb(114, 43, 114);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -12,14 +15,15 @@ header{
 form{
     width: 45vw;
     margin: auto;
-    background-color:  rgba(27, 27, 50, 0.8);;
+    background-color:  rgba(27, 27, 50, 0.8);
+    font-family: inherit;
 }
 
 fieldset{
-    /* border: none; */
+    border: none;
     margin: auto;
     margin-bottom: 10px;   
-    width: 90%; 
+    width: 88%; 
 }
 
 fieldset label{
@@ -29,16 +33,21 @@ fieldset label{
 
 .input-box{
     width: 100%;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 4.6ex;
     font-size: inherit;
     margin-top: 5px;
 }
 
-textarea{
-    font-size: inherit;
-    font-family: inherit;
-    display: block;
-    width: ;
+.input-pair{
+    margin-top: 15px;
 }
+
+.submit{
+    background-color: #37af65;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    color: #eee;
+}
+
 

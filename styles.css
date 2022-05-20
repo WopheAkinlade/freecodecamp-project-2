@@ -1,3 +1,37 @@
 body{
     font-family: sans-serif;
+    background-color: rgb(114, 43, 114);
+    color: white;
 }
+
+header{
+    margin: auto;
+    width: 30vw;
+}
+
+form{
+    width: 45vw;
+    margin: auto;
+    background-color:  rgba(27, 27, 50, 0.8);;
+}
+
+fieldset{
+    /* border: none; */
+    margin: auto;
+    margin-bottom: 10px;   
+    width: 90%; 
+}
+
+fieldset label{
+    display: block;
+    margin-top: 10px;
+}
+
+.input-box{
+    width: 100%;
+    border-radius: 3px;
+    height: 4.6ex;
+    font-size: inherit;
+    margin-top: 5px;
+}
+

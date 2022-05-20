@@ -43,7 +43,7 @@ fieldset label{
     margin-top: 15px;
 }
 
-.submit{
+#submit{
     background-color: #37af65;
     margin-top: 5vh;
     margin-bottom: 8vh;

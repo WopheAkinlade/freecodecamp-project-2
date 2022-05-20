@@ -35,3 +35,10 @@ fieldset label{
     margin-top: 5px;
 }
 
+textarea{
+    font-size: inherit;
+    font-family: inherit;
+    display: block;
+    width: ;
+}
+

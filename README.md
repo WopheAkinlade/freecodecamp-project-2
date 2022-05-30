@@ -3,4 +3,4 @@ This project is the solution to a question posed by FreeCodeCamp in their Respon
 
 The set constraints have been fulfilled by me and the project has been pushed to this repo
 
-The link to the original site created by the great devs of FreeCodeCamp -> https://tribute-page.freecodecamp.rocks/
+The link to the original site created by the great devs of FreeCodeCamp -> https://survey-form.freecodecamp.rocks/
